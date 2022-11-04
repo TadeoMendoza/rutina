@@ -4,14 +4,14 @@ const miercoles = document.getElementById("miercoles");
 const jueves = document.getElementById("jueves");
 
 lunes.addEventListener('click', () => { 
-    location.href ="rutina/pantallas/lunes.html";
+    location.href ="pantallas/lunes.html";
 })
 martes.addEventListener('click', () => { 
-    location.href ="rutina/pantallas/martes.html";
+    location.href ="pantallas/martes.html";
 })
 miercoles.addEventListener('click', () => { 
-    location.href ="rutina/pantallas/miercoles.html";
+    location.href ="pantallas/miercoles.html";
 })
 jueves.addEventListener('click', () => { 
-    location.href ="rutina/pantallas/jueves.html";
+    location.href ="pantallas/jueves.html";
 })
