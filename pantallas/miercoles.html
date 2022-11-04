@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilos/css/bootstrap.min.css">
+    <script src="/estilos/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="calentamiento">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/Jalón al pecho con agarre ancho.png" class="card-img-top" height= "260px" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Calentamiento</h5>
+                      <p class="card-text">2 series de 20 repeticiones, sin peso en la barra</p>
+                      <p>Serie N° <strong id="numeroserie"></strong></p>
+                     <button id="terminar" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer1">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/Jalón al pecho con agarre ancho.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Jalón al pecho con agarre ancho</h5>
+                      <p class="card-text">4 series de 15, 12, 10 y 8 repeticiones (subiendo peso entre series)</p>
+                      <p>Serie N° <strong id="ejer1series"></strong></p>
+                     <button id="terminarej1" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer2">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/remobajo.jpg" class="card-img-top" height= "130px"  alt="...">
+                    <img src="/img/miercoles/remoinclinado.jpg" class="card-img-top" height= "130px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Remo en polea baja +
+                        remo con mancuernas en banco inclinado
+                      </h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer2series"></strong></p>
+                     <button id="terminarej2" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer3">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/pullover-polea-barra.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">PullOver con soga en polea alta</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer3series"></strong></p>
+                     <button id="terminarej3" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer4">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/barrazscott.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Curl con barra "z" en banco Scott</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer4series"></strong></p>
+                     <button id="terminarej4" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer5">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/curl-de-biceps-con-mancuernas-en-banco-inclinado-init-pos-1613.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Curl de biceps con mancuernas en banco inclinado</h5>
+                      <p class="card-text">4 series 12 repeticiones </p>
+                      <p>Serie N° <strong id="ejer5series"></strong></p>
+                     <button id="terminarej5" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer6">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/curl-martillo.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Curl martillo con mancuernas</h5>
+                      <p class="card-text">4 series de 15 repeticiones</p>
+                      <p>Serie N° <strong id="ejer6series"></strong></p>
+                     <button id="terminarej6" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer7">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/miercoles/curl-de-biceps-a-dos-manos-con-cable-polea-de-pie-8848.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Curl con barra "v" en polea baja + descargas al fallo</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer7series"></strong></p>
+                     <button id="terminarej7" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12  text-center hidden" id="terminaste">
+                <h1 class="text-success">TERMINASTE</h1>
+            </div>
+            <div><br></div>
+            <div class="col-12">
+                     <button id="volver" class="btn btn-danger">Volver</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/miercoles.js"></script>
+</html>

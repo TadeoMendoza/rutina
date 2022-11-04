@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilos/css/bootstrap.min.css">
+    <script src="/estilos/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-12" id="calentamiento">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/sentadillas-smith.png" class="card-img-top" height= "260px" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Calentamiento</h5>
+                      <p class="card-text">2 series de 20 repeticiones, sin peso en la barra</p>
+                      <p>Serie N° <strong id="numeroserie"></strong></p>
+                     <button id="terminar" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer1">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/sentadillas-smith.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Sentadilla en smith</h5>
+                      <p class="card-text">4 series de 15, 12, 10 y 8 repeticiones (subiendo peso entre series)</p>
+                      <p>Serie N° <strong id="ejer1series"></strong></p>
+                     <button id="terminarej1" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer2">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/prensa.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Cuádriceps en prensa</h5>
+                      <p class="card-text">4 series de 15, 12, 10 y 8 repeticiones (subiendo peso entre series)</p>
+                      <p>Serie N° <strong id="ejer2series"></strong></p>
+                     <button id="terminarej2" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer3">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/sillon.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Sillón de cuadriceps</h5>
+                      <p class="card-text">4 series de 15 repeticiones</p>
+                      <p>Serie N° <strong id="ejer3series"></strong></p>
+                     <button id="terminarej3" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer4">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/peso-muerto.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Peso muerto en smith</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer4series"></strong></p>
+                     <button id="terminarej4" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer5">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/camilla.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Camilla de isquios</h5>
+                      <p class="card-text">4 series de 20, 15, 12 y 10 repeticiones (subiendo peso entre series)</p>
+                      <p>Serie N° <strong id="ejer5series"></strong></p>
+                     <button id="terminarej5" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer6">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/gemelos.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Gemelos en maquina</h5>
+                      <p class="card-text">4 series de 20 repeticiones</p>
+                      <p>Serie N° <strong id="ejer6series"></strong></p>
+                     <button id="terminarej6" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer7">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/Elevación-frontal-con-mancuernas.jpg" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Vuelos frontales con manacuernas</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer7series"></strong></p>
+                     <button id="terminarej7" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 hidden" id="ejer8">
+                <div class="card text-bg-dark border-white">
+                    <img src="/img/martes/posteriores.png" class="card-img-top" height= "260px"  alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Posteriores en máquina</h5>
+                      <p class="card-text">4 series de 12 repeticiones</p>
+                      <p>Serie N° <strong id="ejer8series"></strong></p>
+                     <button id="terminarej8" class="btn btn-primary">Terminar serie</button>
+                    </div>
+                  </div>
+            </div>
+            
+            <div class="col-12  text-center hidden" id="terminaste">
+                <h1 class="text-success">TERMINASTE</h1>
+            </div>
+            <div><br></div>
+            <div class="col-12">
+                     <button id="volver" class="btn btn-danger">Volver</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/martes.js"></script>
+</html>
