@@ -6,20 +6,20 @@ const viernes = document.getElementById("viernes");
 const sabado = document.getElementById("sabado");
 
 lunes.addEventListener('click', () => { 
-    location.href ="/pantallas/lunes.html";
+    location.href ="/rutina/pantallas/lunes.html";
 })
 martes.addEventListener('click', () => { 
-    location.href ="/pantallas/martes.html";
+    location.href ="/rutina/pantallas/martes.html";
 })
 miercoles.addEventListener('click', () => { 
-    location.href ="/pantallas/miercoles.html";
+    location.href ="/rutina/pantallas/miercoles.html";
 })
 jueves.addEventListener('click', () => { 
-    location.href ="/pantallas/jueves.html";
+    location.href ="/rutina/pantallas/jueves.html";
 })
 viernes.addEventListener('click', () => { 
-    location.href ="/pantallas/viernes.html";
+    location.href ="/rutina/pantallas/viernes.html";
 })
 sabado.addEventListener('click', () => { 
-    location.href ="/pantallas/sabado.html";
+    location.href ="/rutina/pantallas/sabado.html";
 })
