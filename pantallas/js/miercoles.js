@@ -116,5 +116,5 @@ if(document.getElementById("ejer7").classList.contains("hidden")){
 }
 
 document.getElementById("volver").addEventListener('click', () => { 
-    location.href ="/index.html";
+    location.href ="/rutina/index.html";
 })

@@ -129,5 +129,5 @@ if(document.getElementById("ejer8").classList.contains("hidden")){
     })
 }
 document.getElementById("volver").addEventListener('click', () => { 
-    location.href ="/index.html";
+    location.href ="/rutina/index.html";
 })
