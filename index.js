@@ -23,4 +23,4 @@ viernes.addEventListener('click', () => {
 sabado.addEventListener('click', () => { 
     location.href ="/rutina/pantallas/sabado.html";
 })
-//
+
